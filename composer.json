@@ -1,0 +1,15 @@
+{
+    "name": "magetrend/module-custom",
+    "autoload": {
+        "psr-4": {"Magetrend\\ModuleCustom\\":""},
+        "files": ["registration.php"]
+    },
+    "description": "Custom",
+    "type": "magento2-module",
+    "version": "1.1.25",
+    "support": {
+        "email": "support@magetrend.com",
+        "wiki": "http://wiki2.magetrend.com/gift-card/",
+        "author": "Edvinas St"
+    }
+}
