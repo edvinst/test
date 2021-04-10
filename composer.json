@@ -1,15 +1,30 @@
 {
     "name": "magetrend/module-custom",
-    "autoload": {
-        "psr-4": {"Magetrend\\ModuleCustom\\":""},
-        "files": ["registration.php"]
-    },
-    "description": "Custom",
+    "description": "Some desc",
+    "keywords": ["magento", "magento2 extension"],
     "type": "magento2-module",
-    "version": "1.1.27",
-    "support": {
-        "email": "support@magetrend.com",
-        "wiki": "http://wiki2.magetrend.com/gift-card/",
-        "author": "Edvinas St"
-    }
+    "version": "1.0.1",
+    "homepage": "https://github.com/",
+    "authors": [
+        {
+            "name": "Edwin",
+            "email": "contact@edwin.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magetrend\\ModuleCustom\\": ""
+        }
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true
 }
